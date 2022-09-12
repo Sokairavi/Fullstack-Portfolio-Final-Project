@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: 10px;
+}
+
+/* Navbar Links and buttons */
+nav {
+  background-color: ghostwhite;
+  background-image: url("https://wallpapertag.com/wallpaper/full/7/c/d/422298-hd-universe-wallpaper-3200x2000-full-hd.jpg");
+  background-size: 100%;
+  background-position-y: top;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav h1 {
+  padding: 5px;
+  border-radius: 5px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+nav a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 2%;
+}
+
+.nav-button button {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+
+/* Products section - index */
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product-overview {
+  border: 1px solid gainsboro;
+  box-shadow: 5px 5px 5px gainsboro;
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.product-overview a {
+  text-decoration: none;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+}
+
+.product-overview img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Product details */
+.product-details-container {
+  margin: auto;
+}
+
+.product-details {
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  border: 3px double gainsboro;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.details-container {
+  text-align: left;
+  margin: auto;
+  width: 600px;
+  background-color: white;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  margin: auto;
+  width: 400px;
+}
+
+.product-details-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin: auto;
+  width: 400px;
+}
+
+.product-details-navigation button {
+  background-color:rgb(134, 94, 172);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+/* Cart container */
+.cart-container {
+  height: 330px;
+  background-color: rgb(231, 195, 195);
+  background-image: url("https://image.freepik.com/free-photo/shopping-cart-plain-background-with-copy-space_23-2148283802.jpg");
+  background-size: 100%;
+  overflow: scroll;
+  padding-left: 10px;
+}
+
+.addToCartButton {
+  text-align: center;
+}
+
+.form-button,
+.addToCartButton button {
+  background-color: rgb(134, 94, 172);
+  border: 1px solid gainsboro;
+  box-shadow: 5px 5px 5px gainsboro;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 20px;
+}
+
+.form-button:hover,
+.addToCartButton button:hover {
+  background-color: darkslategrey;
+}
+
+
+/* Forms */
+.form-container {
+  padding-bottom: 30px;
+  margin: auto;
+  width: 95%;
+}
+
+input[type],
+textarea {
+display: block;
+width: 80%;
+margin: auto;
+resize: vertical;
+}
+
+input[type="number"] {
+  width: 5%;
+  margin: 0 10%;
+}
+
+input[type="submit"] {
+  width: 30%;
+  margin-top: 30px;
+}
+
+.HomePage {
+  text-align: center;
+}
